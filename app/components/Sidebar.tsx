@@ -4,14 +4,11 @@ export const Sidebar = () => {
   return (
     <aside className="w-64 h-screen" aria-label="Sidebar">
       <div className="overflow-y-auto h-full py-4 px-3 bg-gray-50 rounded-r dark:bg-gray-800">
-        <a
-          href="https://flowbite.com/"
-          className="flex items-center pl-2.5 mb-5"
-        >
+        <Link to={"/manage"} className="flex items-center pl-2.5 mb-5">
           <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
             Storage bin
           </span>
-        </a>
+        </Link>
         <ul className="space-y-2">
           <li>
             <Link
