@@ -1,7 +1,7 @@
-export interface HeadingProps {
+export type HeadingProps = {
   children?: React.ReactNode;
   className?: string;
-}
+};
 
 export const Heading: React.FC<HeadingProps> = ({ children, className }) => {
   return (
